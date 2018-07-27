@@ -1,0 +1,16 @@
+[alias]
+  co = checkout
+  ss = status
+  cm = commit -m
+  cmm = commit --amend
+  br = branch
+  bm = branch -m
+  bd = branch -D
+  cb = checkout -b
+  df = diff
+  ls = log --stat
+  lp = log -p
+  plo = pull origin
+  plro = pull --rebase origin
+  pho = push origin
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
