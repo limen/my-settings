@@ -12,5 +12,5 @@
   lp = log -p
   plo = pull origin
   plro = pull --rebase origin
-  pho = push origin
+  pho = push -u origin
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
