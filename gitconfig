@@ -10,6 +10,8 @@
   df = diff
   ls = log --stat
   lp = log -p
+  pl = pull
   plr = pull --rebase
-  phup = push -u origin
+  ph = push
+  pho = push -u origin
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
