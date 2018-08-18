@@ -1,3 +1,4 @@
 alias lesn='less -N'
 alias la='ls -lAh'
+alias ll='ls -al'
 alias vimn='vim -u NONE'
