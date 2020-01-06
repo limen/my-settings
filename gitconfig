@@ -19,5 +19,5 @@
   # make local branch to track remote one, git track <remove-branch> <local-branch>
   track = branch -u
   # get logs on deleted file, git deleted <filepath>
-  deleted = log --all --full-history --
+  logd = log --all --
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
