@@ -1,7 +1,12 @@
 [core]
+  filemode = false
   pager = more
+[user]
+  email = limengxiang876@gmail.com
+  name = limen
 [alias]
   co = checkout
+  cocd = checkout -- .
   ss = status
   cm = commit -m
   cmm = commit --amend

@@ -1,0 +1,16 @@
+# my aliases
+alias lesn='less -N'
+alias vimn='vim -u NONE'
+alias ll='ls -lh'
+alias phpstorm='$HOME/bin/pstorm.sh'
+alias pycharm='$HOME/bin/pycharm.sh'
+alias goland='$HOME/bin/goland.sh'
+
+# golang
+export PATH=$PATH:/usr/local/go/bin
+export GO111MODULE=on
+export GOPATH=/home/limen/go
+export GOROOT=/usr/local/go
+
+# nodejs
+export PATH=$PATH:/usr/local/nodejs/bin
