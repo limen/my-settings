@@ -1,3 +1,4 @@
+# copy to ~/.bashrc | ~/.zshrc
 # my aliases
 alias lesn='less -N'
 alias vimn='vim -u NONE'
